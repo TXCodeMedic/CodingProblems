@@ -5,8 +5,8 @@
  */
 
 // First Attempt:
-// Runtime: 126 ms, Beats 18.85% of JS users
-// Memory: 50.49 mb, Beats 15.64%
+// Runtime: 70 ms, Beats 99.79% of JS users
+// Memory: 47.97 mb, Beats 53.02%
 var findMedianSortedArrays = function(nums1, nums2) {
     var sortedArr = nums1.concat(nums2).sort((a, b) => a - b)
     if (sortedArr.length % 2 == 0){
