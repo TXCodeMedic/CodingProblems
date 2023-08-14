@@ -18,8 +18,8 @@ var findKthLargest = function(nums, k) {
 };
 
 // Second Attempt: popping inst neccessary
-// Runtime: 154 ms, Beats 51.80% of JS users
-// Memory: 51.35 mb, Beats 60.79% of JS users
+// Runtime: 143 ms, Beats 60.17% of JS users
+// Memory: 51.25 mb, Beats 64.49% of JS users
 var findKthLargest = function(nums, k) {
     nums = nums.sort((a, b) => a - b);
     return nums[nums.length - (k)]
