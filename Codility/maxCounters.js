@@ -3,7 +3,7 @@
 
 // Task Score: 100%
 // Correctness: 100%
-// Performance: 100%
+// Performance: 100%  Detected Time Complexity: O(N + M)
 function solution(N, A) {
     let max = 0;
     let counters = Array(N).fill(max);
