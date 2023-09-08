@@ -23,3 +23,15 @@ var maxArea = function(height) {
     }
     return result;
 };
+
+// Optimized Solution
+// Runtime: 62 ms, Beats 82.79% of JS users
+// Memory: 49.30 mb, Beats 84.17% of JS users
+var maxArea = function(H) {
+    let ans = 0, i = 0, j = H.length-1
+    while (i < j) {
+        ans = Math.max(ans, Math.min(H[i], H[j]) * (j - i))
+        H[i] <= H[j] ? i++ : j--
+    }
+    return ans
+};
