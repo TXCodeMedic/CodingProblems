@@ -1,5 +1,5 @@
-# Runetime: 89 ms, Beats 59.97% of Python users
-# Memory: 19.25 mB, Beats 98.21 of Python users
+# Runetime: 89 ms, Beats 59.97% of Python users O(N∗M∗Log(M))
+# Memory: 19.25 mB, Beats 98.21 of Python users O(N∗M)
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
