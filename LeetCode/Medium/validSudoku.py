@@ -1,5 +1,5 @@
-# Runtime: 
-# Memory: 
+# Runtime: 90 ms, Beats 67.23% of Python users O(N^2)
+# Memory: 15.50 MB, Beats 84.50% of Python users O(N^2)
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         cols = collections.defaultdict(set)
